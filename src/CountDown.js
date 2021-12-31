@@ -22,26 +22,26 @@ const CountDown = () => {
 
   return (
     <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-      <div className="text-white text-center mr-5">
+      <div className="text-white text-center ">
         <h2 className="count-down-title text-3xl font-semibold">
           Countdown to new year
         </h2>
         <div className="text-8xl font-bold">2022</div>
       </div>
       <div className="text-white flex mt-20">
-        <div className="mr-5 w-20 text-center">
+        <div className="mr-5 w-16 md:w-20 text-center">
           <div className="text-6xl bg-black/75 pb-2">{timer.days}</div>
           <div className="bg-sky-800/75 font-semibold">Day</div>
         </div>
-        <div className="mr-5 w-20 text-center">
+        <div className="mr-5 w-16 md:w-20 text-center">
           <div className="text-6xl bg-black/75  pb-2">{timer.hours}</div>
           <div className="bg-sky-800/75 font-semibold">Hour</div>
         </div>
-        <div className="mr-5 w-20 text-center">
+        <div className="mr-5 w-16 md:w-20 text-center">
           <div className="text-6xl bg-black/75  pb-2">{timer.minutes}</div>
           <div className="bg-sky-800/75 font-semibold">minute</div>
         </div>
-        <div className="mr-5 w-20 text-center">
+        <div className=" w-16 md:w-20 text-center">
           <div className="text-6xl bg-black/75  pb-2">{timer.seconds}</div>
           <div className="bg-sky-800/75 font-semibold">second</div>
         </div>
